@@ -1,21 +1,20 @@
 {
-    "name": "bronze_parquet",
-    "properties": {
-        "linkedServiceName": {
-            "referenceName": "LS_ADLS",
-            "type": "LinkedServiceReference"
-        },
-        "annotations": [],
-        "type": "Parquet",
-        "typeProperties": {
-            "location": {
-                "type": "AzureBlobFSLocation",
-                "fileName": "bronze.parquet",
-                "folderPath": "bronze",
-                "fileSystem": "<your-container-name>"
-            },
-            "compressionCodec": "snappy"
-        },
-        "schema": []
-    }
+	"name": "bronze_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "bronze.parquet",
+				"folderPath": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
 }
