@@ -1,0 +1,15 @@
+{
+	"name": "dev-adf-practo-de001",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "20494536-eae7-419b-a8ab-5cab99d7a4d0",
+		"tenantId": "01c0d30a-02ee-49b5-a4e5-e5c5b9435f2e"
+	}
+}
