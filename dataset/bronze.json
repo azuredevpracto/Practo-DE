@@ -1,5 +1,5 @@
 {
-	"name": "bromze",
+	"name": "bronze",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_adls",
